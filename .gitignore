@@ -1,3 +1,7 @@
+# nft data
+images/
+metadata/
+
 # Logs
 logs
 *.log

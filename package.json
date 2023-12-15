@@ -1,0 +1,16 @@
+{
+  "name": "emberling-artwork",
+  "version": "1.0.0",
+  "description": "Artwork for Emberling Collection",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nadina Oates",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.10.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
