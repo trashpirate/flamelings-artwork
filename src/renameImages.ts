@@ -30,23 +30,23 @@ async function readDir(dirName: string) {
 }
 
 async function main() {
-  let index = 0;
   const folders = ["WHITE", "BLUE", "YELLOW", "RED", "NOVA"];
 
-  const folder = "RED";
-  const filePath = "images/" + folder;
-  const imageList = await readDir(filePath);
-  console.log(imageList);
+  for (const folder of folders) {
+    const filePath = "images/" + folder;
+    const imageList = await readDir(filePath);
+    console.log(imageList);
+    let index = 0;
+    imageList.forEach((file) => {
+      // Rename the file
+      fs.renameSync(
+        filePath + "/" + file,
+        filePath + "/flameling_" + folder.toLowerCase() + "_" + index + ".png"
+      );
 
-  imageList.forEach((file) => {
-    // Rename the file
-    fs.renameSync(
-      filePath + "/" + file,
-      filePath + "/emberling_" + folder.toLowerCase() + "_" + index + ".png"
-    );
-
-    index++;
-  });
+      index++;
+    });
+  }
 }
 
 main().catch((error) => {
