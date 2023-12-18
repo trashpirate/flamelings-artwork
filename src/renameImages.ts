@@ -37,15 +37,15 @@ async function main() {
     const imageList = await readDir(filePath);
     console.log(imageList);
     let index = 0;
-    imageList.forEach((file) => {
+    for (const image of imageList) {
       // Rename the file
       fs.renameSync(
-        filePath + "/" + file,
+        filePath + "/" + image,
         filePath + "/flameling_" + folder.toLowerCase() + "_" + index + ".png"
       );
 
       index++;
-    });
+    }
   }
 }
 

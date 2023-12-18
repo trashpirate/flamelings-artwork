@@ -2,7 +2,7 @@ import fs from "fs";
 import process from "process";
 import { readdir } from "fs/promises";
 
-const url = "ipfs://bafybeibyfdvxlsg77idhmq26maoe4sz6hrwr265q4vr2okcc7spugtf3la/";
+const url = "ipfs://bafybeiaf6ppnztlf3k5edqrgq3zae5ih2y6vhf255hekkqn6vjwazhq36q/";
 
 interface metaData {
   name: string;
@@ -66,10 +66,10 @@ async function main() {
     // write metadata file
     let json: metaData;
     json = {
-      name: "Venus #" + index,
+      name: "Flameling #" + index,
       description:
-        "Own a moment of ethereal grace with this VENUS NFT, a timeless celebration of desire and beauty.",
-      image: url + color + "/" + name.toString(),
+        "Meet the adorable Flameling, a playful embodiment of warmth and energy born from fire, captured in this unique digital collectible.",
+      image: url + color + "/" + name,
       attributes: [
         {
           trait_type: "Color",
