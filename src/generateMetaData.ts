@@ -2,7 +2,7 @@ import fs from "fs";
 import process from "process";
 import { readdir } from "fs/promises";
 
-const url = "ipfs://bafybeihdbdvxhpn3ckfan6vkrg6iak6waro23a4pcckq3th35nrjjdswxm/";
+const url = "ipfs://bafybeibyfdvxlsg77idhmq26maoe4sz6hrwr265q4vr2okcc7spugtf3la/";
 
 interface metaData {
   name: string;
