@@ -3,14 +3,15 @@
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?style=for-the-badge)
 ![Node](https://img.shields.io/badge/node-v20.10.0-blue.svg?style=for-the-badge)
 ![NPM](https://img.shields.io/badge/npm-v10.2.3-blue?style=for-the-badge)
-![Nextjs](https://img.shields.io/badge/next-v13.5.4-blue?style=for-the-badge)
-![Tailwindcss](https://img.shields.io/badge/TailwindCSS-v3.0-blue?style=for-the-badge)
-![Wagmi](https://img.shields.io/badge/Wagmi-v1.4.3-blue?style=for-the-badge)
 [![License: MIT](https://img.shields.io/github/license/trashpirate/hold-earn.svg?style=for-the-badge)](https://github.com/trashpirate/hold-earn/blob/main/LICENSE)
 
 [![Website: nadinaoates.com](https://img.shields.io/badge/Portfolio-00e0a7?style=for-the-badge&logo=Website)](https://nadinaoates.com)
 [![LinkedIn: nadinaoates](https://img.shields.io/badge/LinkedIn-0a66c2?style=for-the-badge&logo=LinkedIn&logoColor=f5f5f5)](https://linkedin.com/in/nadinaoates)
-[![Twitter: N0\_crypto](https://img.shields.io/badge/@N0\_crypto-black?style=for-the-badge&logo=X)](https://twitter.com/N0\_crypto)
+[![Twitter: N0_crypto](https://img.shields.io/badge/@N0_crypto-black?style=for-the-badge&logo=X)](https://twitter.com/N0_crypto)
+
+<!-- ![Nextjs](https://img.shields.io/badge/next-v13.5.4-blue?style=for-the-badge)
+![Tailwindcss](https://img.shields.io/badge/TailwindCSS-v3.0-blue?style=for-the-badge)
+![Wagmi](https://img.shields.io/badge/Wagmi-v1.4.3-blue?style=for-the-badge) -->
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -33,9 +34,8 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
@@ -43,6 +43,7 @@
 This repository contains the code to generate an NFT (Non-Fungible Token) collection consisting of 1000 unique AI-generated images known as "flamelings." These flame creatures come with five different traits of varying rarity: WHITE (790), BLUE (100), YELLOW (80), RED (20), and NOVA (10). The entire process, from renaming files to generating metadata files, is designed to facilitate the upload of the collection to [IPFS](https://ipfs.tech/).
 
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 ### Installation
@@ -63,22 +64,24 @@ This repository contains the code to generate an NFT (Non-Fungible Token) collec
 ### Usage
 
 #### Rename Images
-Copy or images into the ```images``` directory and run:
+
+Copy or images into the `images` directory and run:
 
 ```sh
 ts-node --files src/renameImages.ts
 ```
 
 #### Generate Metadata for IPFS
-1. Upload ```images``` directory to IPFS (for example use [NFT UP](https://nft.storage/))
-2. Update IPFS url, and metadata information in ```generateMetadata.ts``` script.
+
+1. Upload `images` directory to IPFS (for example use [NFT UP](https://nft.storage/))
+2. Update IPFS url, and metadata information in `generateMetadata.ts` script.
 3. Run script
    ```sh
     ts-node --files src/generateMetadata.ts
-    ```
-
+   ```
 
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -92,13 +95,14 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- CONTACT -->
+
 ## Contact
 
 Nadina Oates - [@N0_crypto](https://twitter.com/N0_crypto)
@@ -107,7 +111,5 @@ Main Repository: [https://github.com/trashpirate/flamelings](https://github.com/
 
 Project Link: [https://flame.buyholdearn.com/](https://flame.buyholdearn.com/)
 
-
 <!-- ACKNOWLEDGMENTS -->
 <!-- ## Acknowledgments -->
-
